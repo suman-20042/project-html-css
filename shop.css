@@ -1,0 +1,523 @@
+#acheiver{
+    position:absolute;
+    padding-left:30px;
+    height:120px; 
+    width:280px;
+     margin-top:-40px;
+
+}
+
+nav{
+    right: 60px;
+    font-size: 25px;
+    word-spacing: 40px;
+    margin-left: 350px;
+    margin-top: 80px;
+    color: rgb(25, 167, 136)!important;
+}
+a{
+    text-decoration:none !important;
+    left: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    color: black !important;
+    
+}
+a:hover{
+    color:rgb(25, 167, 136) !important;
+}
+
+form{
+    margin-left: 1200px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    height: 60px;
+    width: 400px;
+    /* opacity: 5px; */
+    border-radius: 8px;
+    /* color:black; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: rgba(128, 128, 128, 0.151);   
+}
+
+.search{
+    margin-left:350px;
+    margin-top: -50px;
+}
+
+
+.heartbag{
+    margin-left: 1630px;
+    margin-top: -45px;
+}
+
+
+.heart{
+    margin-left:20px;
+}
+
+.bag{
+    margin-left: 25px;
+}
+
+.breadcrumb{
+    text-decoration:none !important;
+    margin-left:-200px;
+   
+}
+
+
+.breadcrumb-item{
+    padding-top: 25px;
+    
+}
+
+.divider{
+    background-color:rgba(192, 192, 192, 0.596);
+    height: 100px;
+    width: 1900px;
+}
+
+.We-found{
+    padding-left:150px;
+    padding-top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey;
+    font-size: 22px;
+}
+
+#number{
+    color:green;
+    font-weight: bold !important;
+    font-size: 22px;
+}
+
+
+.cards1{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:120px;
+    flex-wrap:wrap;
+    
+   }
+
+.flex1{
+   display: flex;
+   width:350px;
+   height:500px;
+   border-radius: 30px;
+   border: 0.7px solid  rgba(7, 216, 171, 0.349);
+   margin:30px;
+   margin-top:60px;
+   line-height: 700px;
+   font-size: 18px;
+   color: rgba(82, 81, 81, 0.774);
+   padding-left: 40px;
+   text-align: left;
+   justify-content:left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pic1{
+    position:relative;
+    top:20px;
+    right:80px;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+
+.pat{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:10px;
+    flex-wrap:wrap;
+    bottom:150px;
+    position: relative;
+    gap:22px;
+   }
+
+.feat{
+   font-size: 22px;
+   color:black;
+   padding-left:178px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    margin-left:190px;
+    flex-wrap:wrap;
+    top:950px;
+    justify-content: space-between;
+    gap:300px;
+}
+
+
+
+.amount{
+    display: flex;
+    position: absolute;
+    margin-left:180px;
+    flex-wrap:wrap;
+    top:980px;
+    justify-content: space-between;
+    gap:240px;
+    
+}
+
+.money{
+    font-size: 25px;
+    color: rgb(25, 167, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.cards2{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:120px;
+    flex-wrap:wrap;
+   
+   }
+
+.flex2{
+    display: flex;
+    width:350px;
+    height:500px;
+    border-radius: 30px;
+    border: 0.7px solid  rgba(7, 216, 171, 0.349);
+    margin:30px;
+    margin-top:-40px;
+    line-height: 700px;
+    font-size: 18px;
+    color: rgba(82, 81, 81, 0.774);
+    padding-left: 40px;
+    text-align: left;
+    justify-content:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.pic2{
+    position:relative;
+    top:20px;
+    right:80px;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+
+.pat2{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:10px;
+    flex-wrap:wrap;
+    bottom:150px;
+    position: relative;
+    gap: 22px;
+   }
+
+.feat2{
+    font-size: 22px;
+    color:black;
+    padding-left:178px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.logo2{
+    display: flex;
+    position: absolute;
+    margin-left:190px;
+    flex-wrap:wrap;
+    top:1470px;
+    justify-content: space-between;
+    gap:302px;
+}
+
+
+.amount2{
+    display: flex;
+    position: absolute;
+    margin-left:185px;
+    flex-wrap:wrap;
+    top:1500px;
+    justify-content: space-between;
+    gap:240px;
+    
+}
+
+.money2{
+  
+    font-size: 25px;
+    color: rgb(25, 167, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.cards3{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:120px;
+    flex-wrap:wrap;
+   
+   }
+
+.flex3{
+    display: flex;
+    width:350px;
+    height:500px;
+    border-radius: 30px;
+    border: 0.7px solid  rgba(7, 216, 171, 0.349);
+    margin:30px;
+    margin-top:-40px;
+    line-height: 700px;
+    font-size: 18px;
+    color: rgba(82, 81, 81, 0.774);
+    padding-left: 40px;
+    text-align: left;
+    justify-content:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.pic3{
+    position:relative;
+    top:20px;
+    right:80px;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+.pat3{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:10px;
+    flex-wrap:wrap;
+    bottom:150px;
+    position: relative;
+    gap: 22px;
+   }
+
+.feat3{
+    font-size: 22px;
+    color:black;
+    padding-left:178px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.logo3{
+    display: flex;
+    position: absolute;
+    margin-left:190px;
+    flex-wrap:wrap;
+    top:1995px;
+    justify-content: space-between;
+    gap:302px;
+}
+
+
+.amount3{
+    display: flex;
+    position: absolute;
+    margin-left:185px;
+    flex-wrap:wrap;
+    top:2030px;
+    justify-content: space-between;
+    gap:240px;
+    
+}
+
+.money3{
+  
+    font-size: 25px;
+    color: rgb(25, 167, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.pagination{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    border:rgba(7, 216, 171, 0.349) !important;
+    gap: 30px;
+    bottom:150px;
+   
+}
+
+#acheiver-logo{
+    position:absolute;
+    margin-left:88px;
+    height:100px; 
+    width:250px;
+    top:2660px;
+
+}
+
+
+
+.page-link{
+    font-size: 22px !important;
+    background-color:rgba(7, 216, 171, 0.349) !important; 
+}
+
+.page-link{
+
+    left: 460px;
+    background-color: bisque;
+ 
+}
+
+.email-id{
+    border: 5px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    top:2350px;
+    background-color:rgba(9, 102, 82, 0.308) ;
+    height: 150px;
+    /* width:2000px; */
+  
+}
+
+#gmail{
+    padding-left: 150px;
+    padding-top:70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: black;
+
+}
+
+#shopping-coupon{
+    padding-left: 120px;
+    color: rgba(0, 0, 0, 0.808);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#email-logo{
+    position: absolute;
+    top:2415px;
+    left:90px; 
+}
+
+#enter-your-email{
+    position:absolute;
+    top:2440px;
+    left:10px;
+}
+
+#Subcribe{
+    position:relative;
+    margin-left:-50px;
+    border-color:black ;
+    background-color: black;
+    font-size: 22px;
+    color:whitesmoke;
+    height: 60px;
+    width:190px;
+    border-radius:8px;
+}
+
+.information-details{
+    position:relative;
+      top:500px;
+      padding-left: 100px;
+    
+}
+
+#address{
+    font-size: 22px;
+    color: rgb(97, 96, 96);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#res1{
+   color:rgba(0, 0, 0, 0.74);
+}
+
+.unorderd-list{
+    position:absolute;
+    top:2600px;
+    left: 750px;
+    color:grey;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#ad{
+    color: black;
+
+}
+
+.unorderd-list1{
+    position:absolute;
+    top:2600px;
+    left: 1000px;
+    color:grey;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#ad1{
+    color: black;
+
+}
+
+.unorderd-list2{
+    position:absolute;
+    top:2600px;
+    left: 1250px;
+    color: rgb(97, 96, 96);
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.follow-us{
+    position:relative;
+    top:530px;
+    padding-left:90px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all-right-reserved{
+    border:2px grey;
+    position:relative;
+    top:550px;
+    padding-left:50px;
+    color: grey;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#designer{
+    position:relative;
+    bottom:50px;
+    margin-left:1450px;
+    color: grey;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
