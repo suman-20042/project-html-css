@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <style>
+        body {
+            
+            background-color: white; 
+        }
+        .header {
+            background-color: #d8f2e1;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            width: 1300px;
+        }
+        a{
+	  	font-size: 20px;
+	  	color: blueviolet;
+	  	text-decoration: none;
+	  	padding: 20px;
+	  }
+	  nav{
+	  	margin-top: 32px;
+	  }
+	  a:hover{
+	  	color: red;
+	  }
+        .header a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            text-align: left;
+            
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+       .image{
+        font-size: 20px;
+       }
+       
+        .search-bar {
+            display: flex;
+           
+        }
+
+        .search-bar input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+           
+        }
+
+        .search-bar button {
+            padding: 5px 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .icons{
+            height: 40px;
+            width: 20px;
+            margin-top: 20px;
+          
+        }
+        .icon1{
+            height: 40px;
+            width: 20px;
+           margin-top: 20px;
+           
+        }
+        .breadcrumbs {
+            padding: 10px 20px;
+            background-color: #eee;
+        }
+
+       
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .form-box {
+            width: 40%;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .form-box h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .form-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2f8666;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-box button:hover {
+            background-color: #267b5a;
+        }
+       footer {
+            background-color: white;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: left;  
+        }
+        .footer-section {
+            flex: 1 1 300px;
+            margin: 10px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: black;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            margin: 5px 0;
+            color: black;
+        }
+
+        .footer-section a:hover {
+            color: lightskyblue;
+        }
+
+        .newsletter-box {
+            background-color: lightblue;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        .newsletter-text {
+            font-size: 18px;
+            color: lightslategray;
+            margin-bottom: 10px;
+            flex: 1;
+        }
+
+        .newsletter-input {
+            display: flex;
+            flex: 1;
+            max-width: 500px;
+            align-items: center;
+        }
+
+        .newsletter-input input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px   5px;
+            font-size: 16px;
+        }
+
+        .newsletter-input button {
+            width: 20%;
+            padding: 10px;
+            background-color: lightgreen;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .newsletter-input button:hover {
+            background-color: #267b5a;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            .newsletter-box {
+                flex-direction: column;
+                text-align: center;
+            }
+            .newsletter-input {
+                flex-direction: column;
+                width: 100%;
+            }
+            .newsletter-input input[type="email"], 
+            .newsletter-input button {
+                width: 100%;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .social-icons a {
+            margin:  10px;
+            font-size: 15px;
+            color: #555;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #2f8666;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color:  violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="../images/logo.png">
+         <nav>
+             <a href="./project.html">Home</a>
+             <a href="./shop.html">Shop</a>
+             <a href="./account.html">My Account</a>
+             <a href="./compare.html">Compare</a>
+             <a href="./login.html">Login</a>
+         </nav>
+         <div class="search-bar">
+            <input type="text" placeholder="Search for items...">
+            <button>Search</button>
+        </div>
+        <div class="icons">
+        <img src="../images/icon-heart.svg">
+        </div>
+        <div class="icon1">
+        <img src="../images/icon-cart.svg">
+        </div>
+     </div>
+     <div class="breadcrumbs">
+        <p>Home > login</p>
+    </div>
+
+<div class="container">
+    <!-- Login Form -->
+    <div class="form-box">
+        <h2>Login</h2>
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="Your Password" required>
+        <button>Login</button>
+    </div>
+
+    <!-- Register Form -->
+    <div class="form-box">
+        <h2>Create an Account</h2>
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="Your Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button>Submit & Register</button>
+    </div>
+</div>
+<div class="newsletter-box">
+    <div class="newsletter-text">
+        <p>Sign in to Newsletter ...and receive $25 coupon for first shopping.</p>
+    </div>
+    <div class="newsletter-input">
+        <input type="email" placeholder="Enter Your Email" required>
+        <button>Subscribe</button>
+    </div>
+</div>
+
+<footer>
+   
+    <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Address: 13 Timcon Road, Street 32, Beb-Wahren</p>
+        <p>Phone: +01 2222 365 / +91 01 2345 6789</p>
+        <p>Hours: 10:00 - 18:00, Mon - Sat</p>
+    </div>
+    <div class="footer-section">
+        <h3>address</h3>
+        <p>about us</p>
+        <p>delievry information</p>
+        <p>privacy policy</p>
+        <p>terms & conditions</p>
+        <p>contact us</p>
+        <p>support center</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-section">
+        <h3>My Account</h3>
+        <a href="#">Sign In</a><br>
+        <a href="#">View Cart</a><br>
+        <a href="#">Track My Order</a><br>
+        <a href="#">Help</a>
+    </div>
+    <div class="footer-section social-icons">
+        <h3>secured payment gateways</h3>
+        
+        </div>
+</footer>
+<div class="copyright">
+    <p>&copy; 2024 ADARSHA. All rights reserved.</p>
+</div>
+</body>
+</html>
