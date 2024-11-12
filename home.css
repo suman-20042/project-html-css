@@ -1,0 +1,1464 @@
+#acheiver{
+    position:absolute;
+    padding-left:30px;
+    height:120px; 
+    width:280px;
+     margin-top:-40px;
+
+}
+nav{
+    right: 60px;
+    font-size: 25px;
+    word-spacing: 40px;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+a{
+    text-decoration:none;
+    left: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    color: black;
+    
+}
+a:hover{
+    color:rgb(25, 167, 136);
+}
+
+form{
+    margin-left: 1200px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+    height: 60px;
+    width: 400px;
+    /* opacity: 5px; */
+    border-radius: 8px;
+    /* color:black; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: rgba(128, 128, 128, 0.151);   
+}
+
+.search{
+    margin-left:350px;
+    margin-top: -50px;
+}
+
+
+.heartbag{
+    margin-left: 1630px;
+    margin-top: -45px;
+}
+
+
+.heart{
+    margin-left:20px;
+}
+
+.bag{
+    margin-left: 25px;
+}
+
+
+.homeimage{
+    padding-left: 1000px;
+    padding-top:130px;
+
+}
+
+.hot{
+   margin-top:-500px;
+   padding-left: 175px;
+   font-size: 25px;
+   font-family:  'Arial Narrow', Arial, sans-serif;
+color: rgb(34, 114, 87);
+
+}
+
+.fashion{
+margin-top:50px;
+padding-left: 175px;
+font-size: 72px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    color: rgb(25, 167, 136); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+.coupon{
+    font-size: 25px;
+    margin-top:-50px;
+padding-left: 175px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: rgb(7, 139, 111);
+    color: white;
+    height: 70px;
+    width: 160px;
+    font-size: 20px;
+    border-color:rgb(7, 139, 111);
+    border-radius: 10px;
+    margin-left:170px;
+    margin-top: 10px;
+}
+
+
+.one{
+    padding-left:100px;
+    padding-top: 180px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.arrow{
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+
+.fa-solid{
+    position: absolute;
+    
+}
+
+#line1{
+
+    margin-right: 80px;
+}
+
+.cards{
+     width: auto;
+     height:auto;
+     display:flex;
+     margin-left:80px;
+     /* flex-wrap: wrap; */
+    }
+
+.flex{
+    width:250px;
+    height:300px;
+    border-radius: 30px;
+    border: 0.7px solid  rgba(7, 216, 171, 0.349);
+    margin:18px;
+    line-height: 530px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pics{
+    position:relative;
+    top:-510px;
+    margin-left:20px;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    border-radius: 30px;
+}
+
+
+
+.product{
+    color:transparent;
+    margin-top: 60px;
+    display: flex;
+    /* left:-110px; */
+   
+    
+}
+
+.featured{
+    
+    background-color:blanchedalmond;
+    border-radius: 7px ;
+    border: blanchedalmond;
+    color:rgb(0, 128, 100);
+    font-weight: bold;
+    margin-left:100px;
+}
+
+.pop{
+    margin-left:30px;
+    background-color:rgba(128, 128, 128, 0.171);
+    border-radius: 7px ;
+    border: rgba(128, 128, 128, 0.171);
+    color:black;
+    font-weight: bold;
+}
+
+.new{
+    margin-left:30px;
+    background-color:rgba(128, 128, 128, 0.171);
+    border-radius: 7px ;
+    border: rgba(128, 128, 128, 0.171);
+    color:black;
+    font-weight: bold;
+}
+
+
+.cards1{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:70px;
+    flex-wrap:wrap;
+    
+   }
+
+.flex1{
+   display: flex;
+   width:350px;
+   height:500px;
+   border-radius: 30px;
+   border: 0.7px solid  rgba(7, 216, 171, 0.349);
+   margin:20px;
+   margin-top:60px;
+   line-height: 700px;
+   font-size: 18px;
+   color: rgba(82, 81, 81, 0.774);
+   padding-left: 40px;
+   text-align: left;
+   justify-content:left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pic1{
+    position:absolute;
+    top:1570px;
+    margin-left:-10px;
+    border-radius:30px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.pic1:hover  {
+    /* transition: 1.2s ease; */
+    opacity: 0;
+    transition: transform 1.3s ease-in;
+}
+
+.cards-back1{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:70px;
+    flex-wrap:wrap;
+    
+   }
+
+.flex-back1{
+   display: flex;
+   width:350px;
+   height:500px;
+   border-radius: 30px;
+   border: 0.7px solid  rgba(7, 216, 171, 0.349);
+   margin:20px;
+   margin-top:60px;
+   line-height: 700px;
+   font-size: 18px;
+   color: rgba(82, 81, 81, 0.774);
+   padding-left: 40px;
+   text-align: left;
+   justify-content:left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.cards2{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:70px;
+    flex-wrap:wrap;
+    position: absolute;
+    top:2080px;
+
+   }
+
+.flex2{
+    display: flex;
+    width:350px;
+    height:500px;
+    border-radius: 30px;
+    border: 0.7px solid  rgba(7, 216, 171, 0.349);
+    margin:20px;
+    margin-top:60px;
+    line-height: 700px;
+    font-size: 18px;
+    color: rgba(82, 81, 81, 0.774);
+    padding-left: 40px;
+    text-align: left;
+    justify-content:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.pic2{
+    position: absolute;
+    top:80px;
+    margin-left:-10px;
+    border-radius: 30px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.pic2:hover {
+    /* transition: 1.2s ease; */
+    opacity: 0;
+    transition: transform 1.3s ease-in;
+}
+
+.pat{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:20px;
+    flex-wrap:wrap;
+    bottom:420px;
+    position: relative;
+   }
+
+.feat{
+   margin:87px;
+   line-height: 408px;
+   font-size: 25px;
+   color:black;
+   padding-left: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pat2{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:20px;
+    flex-wrap:wrap;
+    bottom:410px;
+    position: relative;
+   }
+
+.feat2{
+   margin:87px;
+   line-height: 408px;
+   font-size: 25px;
+   color:black;
+   padding-left: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    margin-left:125px;
+    flex-wrap:wrap;
+    top:1968px;
+    justify-content: space-between;
+    gap: 328px;
+}
+
+
+.logo2{
+    display: flex;
+    position: absolute;
+    margin-left:125px;
+    flex-wrap:wrap;
+    top:2560px;
+    justify-content: space-between;
+    gap: 328px;
+}
+
+.amount{
+    display: flex;
+    position: absolute;
+    margin-left:50px;
+    flex-wrap:wrap;
+    top:2000px;
+    justify-content: space-between;
+    gap:180px;
+    
+}
+
+.money{
+    padding-left:80px;
+    font-size: 25px;
+    color: rgb(25, 167, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.amount2{
+    display: flex;
+    position: absolute;
+    margin-left:50px;
+    flex-wrap:wrap;
+    top:2590px;
+    justify-content: space-between;
+    gap: 180px;
+    
+}
+
+.money2{
+    padding-left:80px;
+    font-size: 25px;
+    color: rgb(25, 167, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.ma{
+
+    bottom:1650px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap: 380px;
+    align-content:center;
+    justify-content:left;
+    z-index: 1;
+}
+
+
+#one{
+
+    display: flex;
+    border: 2px;
+    background-color:rgba(255, 192, 203, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+#two{
+    border: 2px;
+    background-color:rgba(0, 128, 0, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+#three{
+    border: 2px;
+    background-color:rgba(255, 166, 0, 0.658);
+    color: white;
+    padding-left: 14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+#four{
+    border: 2px;
+    background-color:rgba(0, 0, 255, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+.ma2{
+
+    bottom:1085px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap: 380px;
+    align-content:center;
+    justify-content:left;
+    z-index:1 ;
+    
+}
+
+
+#five{
+
+    display: flex;
+    border: 2px;
+    background-color:rgba(255, 192, 203, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-top: 2px;
+
+}
+
+
+#six{
+    border: 2px;
+    background-color:rgba(0, 128, 0, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-top: 2px;
+
+}
+
+#seven{
+    border: 2px;
+    background-color:rgba(255, 166, 0, 0.658);
+    color: white;
+    padding-left: 14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-top: 2px;
+
+}
+
+#eight{
+    border: 2px;
+    background-color:rgba(0, 0, 255, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:35px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-top: 2px;
+
+}
+
+.circle{
+    border-radius: 50px;
+    background-color: greenyellow;
+    border: 5px;
+    color: green;
+}
+.dealpic{
+    margin-top:-530px;
+    padding-left: 90px;
+    position: relative;  
+}
+   
+#deal1{
+    height:580px;
+    width: 825px;  
+}
+
+#deal2{
+    padding-left:35px;
+    height:580px;
+    width: 825px;  
+}
+
+.letters{
+    padding-left:130px;
+    position: relative;  
+    margin-top:-580px;
+}
+
+#deal{
+     font-size:45px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(25, 167, 136);
+     font-weight:600;
+
+}
+
+#limited{
+    position:absolute;
+    margin-top:-30px;
+    font-size:18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(92, 90, 90);
+}
+
+#summer{
+    position:absolute;
+    margin-top:20px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+
+}
+
+#dollar{
+    position:absolute;
+    margin-top:120px;
+    font-size:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(236, 2, 41);
+
+}
+
+#hurry{
+    position:absolute;
+    margin-top:190px;
+    font-size:22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(92, 90, 90);
+
+}
+
+
+.time{
+
+    top:230px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-content:center;
+    justify-content:left;
+    margin-left:2px;
+    
+    
+    
+}
+
+#days{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+
+#hours{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+
+#mins{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+#sec{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+.weektime{
+    top:175px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-content:center;
+    justify-content:left;
+    margin-left:2px;
+}
+
+#qout{
+    display: flex;
+    color:rgb(7, 139, 111);
+    padding-left:78px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+.weeknames{
+    top:195px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    align-content:center;
+    justify-content:left;
+    margin-left:13px;
+}
+
+#name{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sop{
+   top:230px;
+   position: relative;
+   margin-left:8px;
+   display: flex;
+   border: 3px solid rgb(7, 139, 111);
+   color:rgb(7, 139, 111) ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 150px;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   border-radius:8px;
+   font-size: 20px;
+}
+
+                                                                                                                
+.letters2{
+    padding-left:1000px;
+    position: relative;  
+    margin-top:-330px;
+}
+
+#del2{
+     font-size:45px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(25, 167, 136);
+     font-weight:600;
+
+}
+
+#limited2{
+    position:absolute;
+    margin-top:-30px;
+    font-size:18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(92, 90, 90);
+}
+
+#summer2{
+    position:absolute;
+    margin-top:20px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+
+}
+
+#dollar2{
+    position:absolute;
+    margin-top:120px;
+    font-size:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(236, 2, 41);
+
+}
+
+#hurry2{
+    position:absolute;
+    margin-top:190px;
+    font-size:22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(92, 90, 90);
+
+}
+
+
+.time2{
+
+    top:230px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-content:center;
+    justify-content:left;
+    margin-left:2px;
+    
+    
+    
+}
+
+#days2{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+
+#hours2{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+
+#mins2{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+#sec2{
+    display: flex;
+    background-color:rgb(7, 139, 111);
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width:48px;
+    padding-left:18px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+.weektime2{
+    top:175px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-content:center;
+    justify-content:left;
+    margin-left:2px;
+}
+
+#qout2{
+    display: flex;
+    color:rgb(7, 139, 111);
+    padding-left:78px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+.weeknames2{
+    top:195px;
+    position: relative;
+    margin-left:135px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    align-content:center;
+    justify-content:left;
+    margin-left:13px;
+}
+
+#name2{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sop2{
+   top:230px;
+   position: relative;
+   margin-left:8px;
+   display: flex;
+   border: 3px solid rgb(7, 139, 111);
+   color:rgb(7, 139, 111) ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 150px;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   border-radius:8px;
+   font-size: 20px;
+}
+
+.one1{
+    margin-left:-900px;
+    padding-top: 280px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+.cards9{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:-920px;
+    flex-wrap:wrap;
+    
+   }
+
+.flex9{
+   display: flex;
+   width:350px;
+   height:500px;
+   border-radius: 30px;
+   border: 0.7px solid  rgba(7, 216, 171, 0.349);
+   margin:20px;
+   margin-top:25px;
+   line-height: 700px;
+   font-size: 18px;
+   color: rgba(82, 81, 81, 0.774);
+   padding-left: 40px;
+   text-align: left;
+   justify-content:left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pic9{
+    position: absolute;
+    top:720px;
+    margin-left:-10px;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+
+.pat9{
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-left:-970px;
+    flex-wrap:wrap;
+    bottom:420px;
+    position: relative;
+   }
+
+.feat9{
+   margin:87px;
+   line-height: 408px;
+   font-size: 25px;
+   color:black;
+   padding-left: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo9{
+    display: flex;
+    position: absolute;
+    margin-left:-865px;
+    flex-wrap:wrap;
+    top:1120px;
+    justify-content: space-between;
+    gap: 328px;
+}
+
+
+.amount9{
+    display: flex;
+    position: absolute;
+    margin-left:-865px;
+    flex-wrap:wrap;
+    top:1150px;
+    justify-content: space-between;
+    gap:258px;
+    
+}
+
+.money9{
+    padding-left:3px;
+    font-size: 25px;
+    color: rgb(25, 167, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+.ma9{
+
+    bottom:1070px;
+    position: relative;
+    margin-left:-850px;
+    display: flex;
+    flex-direction: row;
+    gap: 380px;
+    align-content:center;
+    justify-content:left;
+}
+
+
+#one9{
+
+    display: flex;
+    padding-top:5px;
+    border: 2px;
+    background-color:rgba(255, 192, 203, 0.658);
+    color: white;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+    
+
+}
+
+
+#two9{
+    border: 2px;
+    background-color:rgba(0, 128, 0, 0.658);
+    color: white;
+    padding-top:5px;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+#three9{
+    border: 2px;
+    background-color:rgba(255, 166, 0, 0.658);
+    color: white;
+    padding-top:5px;
+    padding-left: 14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+#four9{
+    border: 2px;
+    background-color:rgba(0, 0, 255, 0.658);
+    color: white;
+    padding-top:5px;
+    padding-left:14px;
+    height:20px;
+    width:40px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+
+.tom9{
+    display: flex;
+    margin-left:-898px;
+    flex-wrap:wrap;
+    bottom:550px;
+    position: relative;
+    gap:276px;
+    font-weight: bold;
+   font-size: 25px;
+   color:black;
+   
+   font-family:Arial, Helvetica, sans-serif;
+   }
+
+
+   .jerry9{
+    margin-bottom:550px;
+    border-left:80px;
+
+   }
+
+
+   .tom10{
+   display: flex;
+   position: absolute;
+   flex-wrap: wrap;
+   gap:130px;
+   left:168px;
+  
+   }
+
+   .jerry10{
+    opacity: 100%;
+    margin-top:-1122px;
+    width:300px;
+   }
+
+   .row-image{
+    position: relative;
+    bottom:1050px;
+    right:920px;
+    
+   }
+.showcase{
+    display: flex;
+    gap:338px;
+
+    
+}
+   
+
+.row-image1{
+    position: relative;
+    bottom:1020px;
+    right:920px;
+    
+   }
+.showcase1{
+    display: flex;
+    gap:338px;
+    
+    
+}
+   
+
+.row-image2{
+    position: relative;
+    bottom:990px;
+    right:920px;
+    
+   }
+.showcase2{
+    display: flex;
+    gap:338px;
+    
+    
+}
+
+.floral-print{
+    position: relative;
+    bottom:1400px;
+    right:795px;
+    display: flex;
+    gap:338px;
+}
+
+.causal{
+    padding-top:50px;
+    font-size:20px;
+
+}
+
+#dressname{
+    margin-bottom:8px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.floral-print1{
+    position: relative;
+    bottom:1780px;
+    right:355px;
+    display:flex;
+    gap:338px;
+}
+
+.causal1{
+    padding-top:60px;
+    font-size:20px;
+
+}
+
+#dressname1{
+    margin-bottom:10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+.floral-print2{
+    position: relative;
+    bottom:2165px;
+    left:85px;
+    display:flex;
+    gap:338px;
+}
+
+.causal2{
+    padding-top:50px;
+    font-size:20px;
+
+}
+
+#dressname2{
+    margin-bottom:10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+.floral-print3{
+    position: relative;
+    bottom:2540px;
+    left:510px;
+    display:flex;
+    gap:338px;
+}
+
+.causal3{
+    padding-top:48px;
+    font-size:20px;
+
+}
+
+#dressname3{
+    margin-bottom:10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.email-id{
+    border: 5px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    top:1820px;
+    background-color:rgba(9, 102, 82, 0.308) ;
+    height: 150px;
+  
+}
+
+#gmail{
+    padding-left: 170px;
+    padding-top:70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: black;
+
+}
+
+#shopping-coupon{
+    padding-left: 120px;
+    color: rgba(0, 0, 0, 0.808);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#email-logo    {
+    position:absolute;
+    top:1880px;
+    left:90px; 
+}
+
+#enter-your-email{
+    position:absolute;
+    top:1888px;
+    left:-200px;
+}
+
+#Subcribe{
+    position:relative;
+    margin-left:-10px;
+    border-color:black ;
+    background-color: black;
+    font-size: 22px;
+    color:whitesmoke;
+    width:190px;
+    border-radius:8px;
+}
+#acheiver-logo{
+    position:absolute;
+    margin-left:-940px;
+    height:100px; 
+    width:250px;
+    top:2050px;
+
+}
+.email-id{
+    border: 5px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    top:1800px;
+    background-color:rgba(9, 102, 82, 0.308) ;
+    height: 150px;
+    /* width:2000px; */
+  
+}
+
+#gmail{
+    padding-left: 150px;
+    padding-top:70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: black;
+
+}
+
+#shopping-coupon{
+    padding-left: 120px;
+    color: rgba(0, 0, 0, 0.808);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#email-logo{
+    position: absolute;
+    top:1860px;
+    left:90px; 
+}
+
+#enter-your-email{
+    position:absolute;
+    top:1870px;
+    left:10px;
+}
+
+#Subcribe{
+    position:relative;
+    margin-left:-50px;
+    border-color:black ;
+    background-color: black;
+    font-size: 22px;
+    color:whitesmoke;
+    height: 70px;
+    width:190px;
+    border-radius:8px;
+}
+
+.information-details{
+    position:relative;
+      top:-2100px;
+      margin-left:-930px;
+    
+}
+
+#address{
+    font-size: 22px;
+    color: rgb(97, 96, 96);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#res1{
+   color:rgba(0, 0, 0, 0.74);
+}
+
+.unorderd-list{
+    position:absolute;
+    top:2000px;
+    left: 750px;
+    color:grey;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#ad{
+    color: black;
+
+}
+
+.unorderd-list1{
+    position:absolute;
+    top:2000px;
+    left: 1000px;
+    color:grey;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#ad1{
+    color: black;
+
+}
+
+.unorderd-list2{
+    position:absolute;
+    top:2000px;
+    left: 1250px;
+    color: rgb(97, 96, 96);
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.follow-us{
+    position:relative;
+    top:-2080px;
+    margin-left:-930px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all-right-reserved{
+    border:2px grey;
+    position:relative;
+    top:-2080px;
+    margin-left:-1000px;
+    color: grey;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#copy{
+    padding-left:70px;
+}
+
+
+
+
+
+
